@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# exclude the archive folder
+archive/
+archive/ham10000_images_part_1
+archive/HAM10000_metadata.csv
+archive/ham10000_images_part_2
+
+*.archive/archive
