@@ -1,0 +1,28 @@
+{
+  "os": "Linux-6.17.0-14-generic-x86_64-with-glibc2.39",
+  "python": "CPython 3.12.3",
+  "startedAt": "2026-03-11T11:36:29.299388Z",
+  "program": "/home/charis/Desktop/Projects/Skin_Cancer_Classification/Skin-Cancer-Classification-Problem-/main.ipynb",
+  "codePath": "/home/charis/Desktop/Projects/Skin_Cancer_Classification/Skin-Cancer-Classification-Problem-/main.ipynb",
+  "codePathLocal": "main.ipynb",
+  "git": {
+    "remote": "https://github.com/CharalamposZisis/Skin-Cancer-Classification-Problem-.git",
+    "commit": "826765389ec58d0f17ed24efb73823478a3b5a7f"
+  },
+  "email": "xarisban@gmail.com",
+  "root": "/home/charis/Desktop/Projects/Skin_Cancer_Classification/Skin-Cancer-Classification-Problem-",
+  "host": "charis-Inspiron-15-3511",
+  "executable": "/home/charis/Desktop/Projects/Skin_Cancer_Classification/Skin-Cancer-Classification-Problem-/venv/bin/python",
+  "cpu_count": 2,
+  "cpu_count_logical": 4,
+  "disk": {
+    "/": {
+      "total": "249792131072",
+      "used": "110564810752"
+    }
+  },
+  "memory": {
+    "total": "16492843008"
+  },
+  "writerId": "ll8ax05o6jhfurl1bcarc12yz6ubd1qi"
+}
