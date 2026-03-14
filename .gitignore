@@ -213,3 +213,5 @@ archive/HAM10000_metadata.csv
 archive/ham10000_images_part_2
 
 *.archive/archive
+
+wandb/
