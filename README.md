@@ -39,8 +39,8 @@ To demonstrate the model’s functionality, predictions can be made by sending i
 to the deployed Flask API. For example, the API endpoint /predict accepts image uploads through Postman, <br>
 returning the classification result as JSON.
 
-I choose the next image as an examole to classify:
-![alt text](/home/charis/Desktop/Projects/Skin_Cancer_Classification/Skin-Cancer-Classification-Problem-/Experiment/result.png)
+I chose the next image as an example to classify:
+![Example Image](Experiment/result.png)
 
-The result for the lession classification is:
-![alt text](/home/charis/Desktop/Projects/Skin_Cancer_Classification/Skin-Cancer-Classification-Problem-/Experiment/Experiment/Sampletoclassify.png)
+The result for the lesion classification is:
+![Classification Result](Experiment/Sampletoclassify.png)
