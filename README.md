@@ -40,7 +40,12 @@ to the deployed Flask API. For example, the API endpoint /predict accepts image 
 returning the classification result as JSON.
 
 I chose the next image as an example to classify:
-![Example Image](Experiment/result.png)
+![Classification Result](Experiment/Sampletoclassify.png)<br>
+
 
 The result for the lesion classification is:
-![Classification Result](Experiment/Sampletoclassify.png)
+![Example Image](Experiment/result.png)
+
+<br>
+
+As we can see the result of that image is correct and classified as Vascular lession (vasc).
