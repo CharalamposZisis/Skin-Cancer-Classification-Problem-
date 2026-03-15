@@ -4,15 +4,43 @@
 
 This project implements a Skin carncer image classification model using deep learning techniques. The aim of this project is <br> 
 training neural networks for automated diagnosis of pigmented skin lesion based on 10000 training images. The model is built with the <br>
-Keras API from TensorFlow and is trained to classify images into predefined categories using a convolutional neural network (CNN). <br>
-
+Keras API from TensorFlow, Pytorch and is trained to classify images into predefined categories using ANN and transfer learning (MobileNet). <br>
+Among the tested architectures, MobileNet demonstrated the highest performance, achieving an accuracy of 0.78 on the validation set.
 
 ## Technologies Used
 
-- Python
 - TensorFlow / Keras
+- Pytorch
+- MobileNet
 - NumPy
 - Matplotlib
 - Scikit-learn
 
 ## Model Architechture 
+
+- MobileNetV2 architecture fine-tuned for 7 classes.
+
+- Training and validation with PyTorch.
+
+- Model evaluation and logging with Weights & Biases (wandb)
+
+- Flask API for image upload and real-time prediction.
+
+- Supports uploading images via POST requests (tested with Postman).
+
+## Experiment Tracking
+
+Training metrics such as loss and accuracy are logged using ![alt text](image.png), enabling easy monitoring and visualization of model performance.
+
+
+## Flask API 
+
+To demonstrate the model’s functionality, predictions can be made by sending image files via POST requests <br>
+to the deployed Flask API. For example, the API endpoint /predict accepts image uploads through Postman, <br>
+returning the classification result as JSON.
+
+I choose the next image as an examole to classify:
+![alt text](/home/charis/Desktop/Projects/Skin_Cancer_Classification/Skin-Cancer-Classification-Problem-/Experiment/result.png)
+
+The result for the lession classification is:
+![alt text](/home/charis/Desktop/Projects/Skin_Cancer_Classification/Skin-Cancer-Classification-Problem-/Experiment/Experiment/Sampletoclassify.png)

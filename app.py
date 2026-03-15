@@ -11,7 +11,7 @@ app = Flask(__name__)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Number of classes
-NUM_CLASSES = 1000
+NUM_CLASSES = 7
 
 # Class labels (HAM10000)
 class_labels = {
@@ -28,7 +28,7 @@ class_labels = {
 model = models.mobilenet_v2(weights=None)
 
 # Replace classifier for 7 classes
-model.classifier[1] = nn.Linear(model.last_channel, NUM_CLASSES)
+model.classifier[1] = nn.Linear(1280, 7)
 
 # Load trained weights
 model.load_state_dict(torch.load("mobilenet_model.pth", map_location=device))
