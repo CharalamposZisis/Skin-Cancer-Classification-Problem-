@@ -2,7 +2,7 @@
 
 # Overview
 
-This project implements a Skin carncer image classification model using deep learning techniques. The aim of this project is <br> 
+This project implements a Skin carncer image classification model using deep learning techniques. The aim of this project is
 training neural networks for automated diagnosis of pigmented skin lesion based on 10000 training images. The model is built with the <br>
 Keras API from TensorFlow, Pytorch and is trained to classify images into predefined categories using ANN and transfer learning (MobileNet). <br>
 Among the tested architectures, MobileNet demonstrated the highest performance, achieving an accuracy of 0.78 on the validation set.
